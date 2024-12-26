@@ -1,4 +1,4 @@
-function PlayerCollision(hSpeed,vSpeed){
+function PlayerCollision(){
 var _collision = false;
 var tilesize = TILE_SIZE;
 //Horizontal Tiles

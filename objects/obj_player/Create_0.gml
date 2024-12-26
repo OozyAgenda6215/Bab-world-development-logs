@@ -5,6 +5,7 @@ hspeed=0;
 vspeed=0;
 my_speed=1.6;
 
+
 spriteRun = SPR_Player_Walk;
 spriteIdle = SPR_Player;
 localFrame = 0;

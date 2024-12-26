@@ -8,12 +8,11 @@ var keyCharMenu = keyboard_check(ord("B"));
 
 var inputDirection = point_direction(0,0, keyRight-keyLeft, keyDown-keyUp);
 var inputMagnitude = (keyRight-keyLeft != 0) or (keyDown-keyUp !=0);
-
 //movement//
 var hSpeed = lengthdir_x(inputMagnitude*my_speed, inputDirection);
 var vSpeed = lengthdir_y(inputMagnitude*my_speed, inputDirection);
 
-PlayerCollision(hSpeed,vSpeed);
+PlayerCollision();
 
 //sprite updating
 var _oldSprite = sprite_index;
