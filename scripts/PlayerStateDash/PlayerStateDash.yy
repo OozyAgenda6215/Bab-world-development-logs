@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"playeranimate",
+  "%Name":"PlayerStateDash",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"playeranimate",
+  "name":"PlayerStateDash",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
